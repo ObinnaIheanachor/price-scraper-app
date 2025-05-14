@@ -21,7 +21,7 @@ st.markdown("<h1 style='text-align: center; color: #1F4E79;'>📈 Model Predicti
 st.markdown("<hr style='margin-top: -10px; margin-bottom: 30px;'>", unsafe_allow_html=True)
 
 # Sidebar Toggle for Mobile
-is_mobile = st.checkbox("📱 Show Sidebar (Mobile View)", value=False)
+is_mobile = st.checkbox("📱 Show Sidebar (Mobile View)", value=True)
 
 if is_mobile:
     with st.sidebar:
